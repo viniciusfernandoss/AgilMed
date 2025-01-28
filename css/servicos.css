@@ -1,0 +1,80 @@
+#servicos{
+    color: white;
+    height: 100vh;
+}
+
+.titulo1-servicos{
+    font-family: var(--fonte-SegoeUi);
+    color: #3AA9F8;
+    font-size: 1.2rem;
+}
+
+.titulo2-servicos{
+    font-family: var(--fonte-SegoeUi);
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #303030;
+} 
+
+.content-card-servicos{
+    height: 250px;
+    background-color: #E6F4FE;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: transform 0.3s ease-in-out;
+}
+.content-card-servicos:hover{
+    transform: scale(1.1);
+}
+
+.content-card-servicos img{
+    width: 55px;
+}
+.content-card-servicos h4{
+    font-family: var(--fonte-SegoeUi);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #303030;
+}
+.content-card-servicos p{
+    font-family: var(--fonte-SegoeUi);
+    font-size: 1rem;
+    font-weight: 400;
+    color: #303030;
+} 
+
+.content-card-servicos a{
+    font-size: 1rem;
+    text-decoration: none;
+    background: rgba(5, 84, 140, 1);
+    color: white;
+    transition: 0.5s;
+    font-family: var(--fonte-SegoeUi);
+}
+
+.content-card-servicos a:hover{
+    background: #0D0D0D;
+}
+
+.content-card-servicos .bi{
+    font-size: 3rem;
+}
+
+/* Swiper */
+.swiper-slide{
+    margin-bottom: 55px;
+}
+.swiper-pagination-bullet {
+    background-color: #0D0D0D;
+    height: 15px;
+    width: 15px;
+}
+.swiper-pagination-bullet-active {
+    background-color: rgba(5, 84, 140, 1);
+}
+
+@media (max-width: 992px){
+    #servicos{
+        margin-top: 50px;
+        height: 50vh;
+    }
+}

@@ -1,0 +1,59 @@
+#perguntasErespostas{
+    color: white;
+}
+
+.titulo1-faq{
+    font-family: var(--fonte-SegoeUi);
+    color: rgba(58, 169, 248, 1);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.titulo2-faq{
+    font-family: var(--fonte-SegoeUi);
+    font-weight: 500;
+    font-size: 3rem;
+    color: rgba(48, 48, 48, 1);
+    font-weight: 700;
+}
+
+
+
+.accordion{
+    --bs-accordion-active-bg: rgba(230, 244, 254, 1);
+    --bs-accordion-active-color: rgba(25, 30, 21, 1);
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-bg: rgba(230, 244, 254, 1);
+    --bs-accordion-border-width: 0px;
+    
+    --bs-accordion-button-active-color: white;
+}   
+ 
+   
+
+
+.accordion-button.collapsed{
+    padding: 2.5%;
+    font-size: 1.2rem;
+    color: rgba(25, 30, 21, 1);
+    font-weight: 400;
+    background: rgba(230, 244, 254, 1);
+}
+.accordion-collapse{
+    background-color: rgba(230, 244, 254, 1);
+}
+.accordion-button:not(.collapsed){
+    box-shadow: none;
+    padding: 2.5%;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.accordion-body{
+    font-size: 1rem;
+}
+
+@media (max-width: 992px){
+    .titulo2-faq{
+        line-height: 3.5rem;
+    }
+}

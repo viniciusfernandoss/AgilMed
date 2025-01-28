@@ -1,0 +1,15 @@
+.navinfo{
+    background-color: rgb(240, 240, 240)
+}
+
+.contato-info-bar p{
+    font-family: var(--fonte-SegoeUi);
+    font-weight: 400;
+}
+
+.redes-info-bar a{
+    color: rgba(7, 118, 197, 1);
+}
+.redes-info-bar a:hover{
+    color: rgb(6, 87, 145);
+}

@@ -1,0 +1,110 @@
+footer{
+    background-color: rgba(1, 15, 25, 1);
+}
+
+/* 
+======================================
+            Footer Menu
+======================================
+*/
+.content2-footer-menu li{
+    list-style: none;
+}
+.content1-footer-menu a{
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: var(--fonte-Poppins);
+    font-weight: 500;
+    color: white;
+    transition: 0.3s;
+    background-color: rgba(7, 118, 197, 1);
+}
+.content1-footer-menu a:hover{
+    color: rgba(7, 118, 197, 1);
+    background-color: white;
+}
+
+
+
+.content2-footer-menu h2, .content3-footer-menu h2, .content1-footer-menu h2, .content4-footer-menu h2{
+    font-family: var(--fonte-Poppins);
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+}
+.content2-footer-menu p{
+    font-family: var(--fonte-SegoeUi);
+    color: white
+}
+.content3-footer-menu p{
+    font-size: 1rem;
+    font-family: var(--fonte-SegoeUi);
+    color: white;
+}
+.content2-footer-menu a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.content2-footer-menu a:hover{
+    color: rgba(7, 118, 197, 1);
+}
+
+.content3-footer-menu p{
+    color: white;
+}
+
+.content4-footer-menu p{
+    font-size: 1rem;
+    font-family: var(--fonte-SegoeUi);
+    color: white;
+}
+.content4-footer-menu a{
+    text-decoration: none;
+    color: rgba(7, 118, 197, 1);
+    font-size: 1.2rem;
+}
+.content4-footer-menu a:hover{
+    color: white;
+}
+
+.redes-footer-menu a{
+    text-decoration: none;
+    color: white
+}
+.redes-footer-menu a:hover, .content3-footer-menu a:hover{
+    color: rgba(7, 118, 197, 1);
+}
+
+.content3-footer-menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.bi-map-fill{
+    color: rgba(7, 118, 197, 1);
+}
+
+.linha-footer{
+    height: 1px;
+    width: 80%;
+    background: linear-gradient(to right, transparent, #303030, transparent);
+}
+
+/* 
+=========================================
+            Footer Copyright
+=========================================
+*/
+#footer-copyright p{
+    color: rgba(133, 131, 132, 1);
+    font-size: 1rem;
+}
+#footer-copyright a{
+    font-size: 1rem;
+    color: rgba(7, 118, 197, 1);
+}
+#footer-copyright a:hover{
+    color: white;
+}

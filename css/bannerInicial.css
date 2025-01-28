@@ -1,0 +1,74 @@
+.sessao-inicial{
+    margin-top: 130.2px;
+}
+.carousel-caption{
+    top: 0;
+}
+.carousel-caption h2{
+    font-family: var(--fonte-SegoeUi);
+    font-weight: 600;
+    font-size: 4rem;
+}
+.carousel-caption h1{
+    font-family: var(--fonte-SegoeUi);
+    font-weight: 600;
+    font-size: 2.8rem;
+}
+.carousel-caption p{
+    font-family: var(--fonte-SegoeUi);
+    font-size: 1rem;
+    width: 75%;
+}
+
+.btns-banner-inicial a{
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-saiba-mais-banner-inicial{
+    font-family: var(--fonte-SegoeUi);
+    background: white;
+    border: 1px solid transparent;
+    color: rgba(5, 84, 140, 1);
+    font-weight: 600;
+}
+.btn-saiba-mais-banner-inicial:hover{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-fazer-contato-banner-inicial{
+    font-family: var(--fonte-SegoeUi);
+    color: white;
+    font-weight: 600;
+    border: 1px solid white;
+}
+.btn-fazer-contato-banner-inicial:hover{
+    background: white;
+    border: 1px solid transparent;
+    color: rgba(5, 84, 140, 1);
+}
+
+@media (max-width: 992px) {
+    .sessao-inicial{
+        margin-top: 85px;
+    }
+
+    .carousel-caption h2{
+        font-size: 2rem;
+    }
+    .carousel-caption h1{
+        font-size: 1.5rem;
+    }
+    .carousel-caption p{
+        font-size: 1rem;
+        width: 100%;
+    }
+    .btn-saiba-mais-banner-inicial{
+        font-size: 1rem;
+    }
+    .btn-fazer-contato-banner-inicial{
+        font-size: 1rem;
+    }
+}

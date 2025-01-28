@@ -1,0 +1,42 @@
+#case-sucesso{
+    font-family: var(--fonte-Poppins);
+}
+
+.content-titulo-case-sucesso h2{
+    font-family: var(--fonte-BebasNeue);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.content-titulo-case-sucesso{
+    position: relative; /* Cria um contexto de posicionamento para os elementos filhos */
+    display: inline-block; /* Garante que o contêiner se ajuste ao tamanho da imagem */
+}
+
+.content-titulo-case-sucesso img{
+    display: block;
+    width: 100%;
+}
+
+.btn-saiba-mais-case-sucesso{
+    position: absolute; /* Posiciona o link em relação ao contêiner */
+    top: 95%; /* Alinha verticalmente no meio do contêiner */
+    left: 50%; /* Alinha horizontalmente no meio do contêiner */
+    transform: translate(-50%, -50%); /* Ajusta para que o link fique centralizado */
+
+    text-decoration: none;
+    background: rgba(5, 84, 140, 1);
+    color: white;
+    animation: pulse 1.5s infinite;
+    transition: 0.5s;
+}
+
+.btn-saiba-mais-case-sucesso:hover{
+    background: rgb(3, 45, 75);
+} 
+
+@media (max-width: 996px) {
+    .btn-saiba-mais-case-sucesso{
+        top: 100%
+    }
+}

@@ -1,0 +1,20 @@
+.nav-link{
+    font-family: var(--fonte-SegoeUi);
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+}
+.nav-link:hover{
+    color: rgba(7, 118, 197, 1);
+    border-bottom: 2px solid rgba(7, 118, 197, 1);
+}
+
+.btn-fazer-contato{
+    text-decoration: none;
+    background-color: rgba(7, 118, 197, 1);
+    color: white;
+    animation: pulse 1.5s infinite;
+}
+.btn-fazer-contato:hover{
+    background-color: rgb(6, 87, 145);
+}

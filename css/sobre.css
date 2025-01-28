@@ -1,0 +1,30 @@
+#Sobre{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.titulo1-sobre{
+    font-family: var(--fonte-BebasNeue);
+    color: rgba(58, 169, 248, 1);
+    font-size: 1.2rem;
+}
+
+.titulo2-sobre{
+    font-family: var(--fonte-BebasNeue);
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: rgba(25, 30, 21, 1);
+}
+
+.content1-sobre a{
+    text-decoration: none;
+    background: rgba(7, 118, 197, 1);
+    color: white;
+    animation: pulse 1.5s infinite;
+    transition: 0.5s;
+    border: 2px solid transparent;
+}
+.content1-sobre a:hover{
+    color: rgba(7, 118, 197, 1);
+    background: transparent;
+    border: 2px solid rgba(7, 118, 197, 1);
+}
