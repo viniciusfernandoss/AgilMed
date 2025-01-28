@@ -46,3 +46,7 @@
     z-index: 1000; /* Garante que o cabeçalho fique sobre outros elementos */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+
+.txt-azul{
+    color: rgba(5, 84, 140, 1);
+}
